@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Brighly Crush';
+    src: url('BrighlyCrush-Shine.eot');
+    src: local('Brighly Crush Shine'), local('BrighlyCrush-Shine'),
+        url('BrighlyCrush-Shine.eot?#iefix') format('embedded-opentype'),
+        url('BrighlyCrush-Shine.woff2') format('woff2'),
+        url('BrighlyCrush-Shine.woff') format('woff'),
+        url('BrighlyCrush-Shine.ttf') format('truetype'),
+        url('BrighlyCrush-Shine.svg#BrighlyCrush-Shine') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

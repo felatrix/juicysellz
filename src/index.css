@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #92d2d2;
+  background-image: url('https://mcdn.wallpapersafari.com/medium/70/58/8LlO9Q.jpg');
+  overflow-x: hidden;
+  background-size: cover;
 }
 
 code {
