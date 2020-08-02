@@ -8,7 +8,7 @@ const Navbar = ()=>{
         <React.Fragment>
         <nav className="navbar">
             <Link className="navbar--logo" to="/">
-                <img src={Logo} alt="" srcset=""/>
+                <img src={Logo} alt="" />
                 <h4>JuicySellz</h4>
             </Link>
             <ul className="navbar--links">

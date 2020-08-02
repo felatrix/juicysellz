@@ -7,10 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #92d2d2;
   background-image: url('https://mcdn.wallpapersafari.com/medium/70/58/8LlO9Q.jpg');
+  overflow: scroll;
   overflow-x: hidden;
   background-size: cover;
 }
-
+::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background:#FF0000 ;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

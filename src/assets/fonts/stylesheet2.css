@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Fresh Lemonade';
+    src: url('FreshLemonade-Regular.eot');
+    src: url('FreshLemonade-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FreshLemonade-Regular.woff2') format('woff2'),
+        url('FreshLemonade-Regular.woff') format('woff'),
+        url('FreshLemonade-Regular.ttf') format('truetype'),
+        url('FreshLemonade-Regular.svg#FreshLemonade-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
