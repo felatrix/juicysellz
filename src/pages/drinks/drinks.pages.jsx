@@ -1,10 +1,12 @@
 import React,{useState} from 'react'
-import {withRouter,Switch,Route} from "react-router-dom";
+import {withRouter,Switch,Route,Redirect} from "react-router-dom";
 import DRINK_DATA from './Drink'
 
 import DrinkDetail from '../../components/drinks/drinkDetail.component'
 
 import './drinks.style.scss'
+
+
 
 const Drinks = ({match,location,history})=>{
     const [dataDrink,setDataDrink] = useState(DRINK_DATA)
@@ -15,7 +17,7 @@ const Drinks = ({match,location,history})=>{
         {
             product_home_select.map((data)=>{
                 return(
-                    <Route key={`${data.path_url}`} exact path={`${match.url}/${data.path_url}`}>
+                    <Route key={`${data.path_url}`} exact path={`${match.url}/${data.path_url}`} >
                         <DrinkDetail {...data}/>
                     </Route>
                 )
@@ -28,5 +30,8 @@ const Drinks = ({match,location,history})=>{
         </React.Fragment>
     )
 }
+
+
+
 
 export default withRouter(Drinks)
